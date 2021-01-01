@@ -1,16 +1,16 @@
 
-/* Variable CSS  */
+
 :root {
   --header-height: 3rem;
   --font-semi:600
 }
-/* Colores */
+
 :root {
   --first-color: rgb(139, 12, 12);
   --second-color: rgb(37, 5, 73);
 
 }
-/* fuente y tipografia*/
+
 :root {
   --body-font: 'Poppins', sans-serif;
   --big-font-size:2rem;
@@ -169,7 +169,7 @@ img {
   box-shadow: 0px 12px 8px rgb(68, 1, 1);
 }
 
-/*===== NAV =====*/
+
 .nav{
   height: var(--header-height);
   display: flex;

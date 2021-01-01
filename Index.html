@@ -1,308 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ingmecanica</title>
+        <link rel="stylesheet" href="GLOBAL/CSS ESTILOS/Main.css">
 
-  <link href="Img1/pexels-pixabay-159298.jpg" rel="Main.css">
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-  
-  <link rel="stylesheet" href="Main.css">
-</head>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-<body>
+        <title>MI CV Online</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">MI CV</a>
+                </div>
 
-  <div class="menu-btn">
-    <i class="fas fa-bars fa-2x"></i>
-  </div>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#inicio" class="nav__link active">Inicio</a></li>
+                        <li class="nav__item"><a href="#sobre mi" class="nav__link">Sobre Mi</a></li>
+                        <li class="nav__item"><a href="#habilidades" class="nav__link">Habilidades</a></li>
+                        <li class="nav__item"><a href="#trabajos autocad" class="nav__link">Trabajos Autocad</a></li>
+                        <li class="nav__item"><a href="#contacto" class="nav__link">Contacto</a></li>
+                    </ul>
+                </div>
 
-  <div class="container">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-    <nav class="nav-main">
+        <main class="l-main">
+           
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">BIENVENIDO<br> Yo soy <span class="home__title-color">Cesar</span><br> Estudiante de Ingenieria mecanica</h1>
 
-      <img src="IMAGENES/pngegg (1).png" alt="INGlogo" class="nav-brand">
+                    <a href="#" class="button">Contacto</a>
+                </div>
 
-      <ul class="nav-menu">
-        <li>
-          <a href="#">Historia</a>
-        </li>
-        <li>
-          <a href="#">La Fisica en la Ingenieria</a>
-        </li>
-        <li>
-          <a href="#">Maquinas y Motores</a>
-        </li>
-        <li>
-          <a href="#">Ciencia de Materiales</a>
-        </li>
-        <li>
-          <a href="#">Noticias</a>
-        </li>
-        <li>
-          <a href="#">Guias y Manuales</a>
-        </li>
-        <li>
-          <a href="#">Dibujos y Diseños</a>
-        </li>
-        <li>
-          <a href="#">Creador</a>
-        </li>
-      </ul>
-      <style>
-        .fixed  {
-          position: fixed;
-        }
-      </style>
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
+                <div class="home__img">    
+                    <img src="GLOBAL/IMAGENES/logohacker.png" alt="">
+                </div>
+            </section>
 
-      <ul class="nav-menu-right">
-        <li>
-          <a href="#">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <style>
-      .fixed  {
-        position: fixed;
-      }
-    </style>>
-
-    <header class="showcase">
-      <h2>Bienvenidos</h2>
-      <p>Este pagina tiene como objetivo compartir y difundir imformacion sobre la Ingeniera Mecanica</p>
-      <a href="#" class="btn">
-        Mas informacion <i class="fas fa-chevron-right"></i>
-      </a>
-
-    </header>
-    <div class="news-cards">
-      <div>
-        <img src="img/news1.jpg" alt="" />
-        <h3>Noticias </h3>
-        <p>Las primeras manifestaciones de ingeniería se dieron en la Edad Antigua con las
-           grandes construcciones como las pirámides, tanto egipcias, como precolombinas. Así mismo, están
-            las grandes obras de los griegos y los
-            romanos, quienes llevaron la ingeniería a otros aspectos de la vida como la milicia.
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news2.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>EL MUNDO ES ANCHO 
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news3.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news4.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-    </div>
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Sobre mi</h2>
+                
 
 
-    <section class="cards-banner-one">
-      <div class="content">
-        <h2>Lorem, ipsum dolor.</h2>
+                </p>
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat maxime facilis quasi alias illo, fugiat
-          cupiditate porro dolores tenetur delectus!</p>
-        <a href="#" class="btn">Learn More<i class="fas fa-chevron-right"></i></a>
-      </div>
-    </section>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="GLOBAL/IMAGENES/thl.JPG" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">Quien soy</h2>
+                        <p class="about__text"> Actualmete curso la carrera de Ingeniera Mecanica,Tengo un trabajo como Asitente administrativo de tienda en la empresa Triathlon</p>           
+                    </div>                                   
+                </div>
+            </section>
 
-    <div class="news-cards">
-      <div>
-        <img src="img/news1.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news2.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news3.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-      <div>
-        <img src="img/news4.jpg" alt="" />
-        <h3>Lorem, ipsum dolor.</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore fugit esse corporis nesciunt minima
-          doloremque modi mollitia rerum, similique optio eligendi itaque amet qui ullam vel incidunt asperiores fuga?
-        </p>
-        <a href="#">Learn More <i class="fas fa-angle-double-right"></i></a>
-      </div>
-    </div>
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">habilidades</h2>
 
-    <!-- third card -->
-    <section class="cards-banner-two">
-      <div class="content">
-        <h2>Lorem, ipsum dolor.</h2>
-        <!-- lorem 30 -->
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut qui laudantium id quam magni accusantium,
-          veritatis, ipsam labore, reprehenderit dolore repudiandae nemo sint deserunt! Suscipit facilis qui inventore
-          consequatur fugit.</p>
-        <a href="#" class="btn">Learn More <i class="fas fa-chevron-right"></i></a>
-      </div>
-    </section>
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="habilidades__sub">Mis habilidades profesionales</h2>
+                        <p class="skills__text">Me considero una persona que aprende con facilidad el uso de programas en computadoras, ya sea para el diseño mecanico o la gestion de documentación</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">Desarrollo Frond End</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">35%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">Autocad</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">Inventor</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Microsof Office</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="GLOBAL/IMAGENES/technical-drawing-3324368.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">DIBUJOS</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/braz.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/pieza.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/disco.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/BAÑO aa-Temp0000.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/CABALLO (3)-Temp0002.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="GLOBAL/IMAGENES/iluminado-Temp0003.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contacto</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Nombre" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        
+        <footer class="footer">
+            <p class="footer__title">Mis Redes Sociales</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 1 de Enero del 2021 </p>
+        </footer>
 
 
-    <section class="social">
-      <p>Follow TechNews</p>
-      <div class="links">
-        <a href="https://facebook.com">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://twitter.com">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="https://linkdin.com">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </section>
-  </div>
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-
-  <div class="footer-links">
-    <div class="footer-container">
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Titulo 1 </h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Blockchain</a>
-        </li>
-        <li>
-          <a href="#">Machine Learning</a>
-        </li>
-        <li>
-          <a href="#">Artificial Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Quantum Computing</a>
-        </li>
-        <li>
-          <a href="#">Startup</a>
-        </li>
-        <li>
-          <a href="#">Cryptocurrencies</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Titulo 2</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Blockchain</a>
-        </li>
-        <li>
-          <a href="#">Machine Learning</a>
-        </li>
-        <li>
-          <a href="#">Artificial Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Quantum Computing</a>
-        </li>
-        <li>
-          <a href="#">Startup</a>
-        </li>
-        <li>
-          <a href="#">Cryptocurrencies</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Titulo </h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Blockchain</a>
-        </li>
-        <li>
-          <a href="#">Machine Learning</a>
-        </li>
-        <li>
-          <a href="#">Artificial Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Quantum Computing</a>
-        </li>
-        <li>
-          <a href="#">Startup</a>
-        </li>
-        <li>
-          <a href="#">Cryptocurrencies</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Titulo 3</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Blockchain</a>
-        </li>
-        <li>
-          <a href="#">Machine Learning</a>
-        </li>
-        <li>
-          <a href="#">Artificial Intelligence</a>
-        </li>
-        <li>
-          <a href="#">Quantum Computing</a>
-        </li>
-        <li>
-          <a href="#">Startup</a>
-        </li>
-        <li>
-          <a href="#">Cryptocurrencies</a>
-        </li>
-      </ul>
-    </div>
-    
-  </div>
-  <!-- Footer -->
-  <footer class="footer">
-    <h3>ING MECANICA </h3>
-  </footer>
-
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <script src="main.js"></script>
-</body>
+        <!--===== MAIN JS =====-->
+        <script src="GLOBAL/JAVA/Main.js"></script>
+    </body>
+</html>
